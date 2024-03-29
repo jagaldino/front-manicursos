@@ -1,0 +1,29 @@
+.headline-container {
+    width: 1440px;
+    height: 186px;
+    top: 160px;
+    gap: 0px;
+    opacity: 0px; /* Inicialmente invisível */
+    background-color: #F97B22; /* Cor de fundo laranja */
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+p {
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+text-align: center;
+color: #FFFFFF;
+
+}
