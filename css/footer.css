@@ -1,0 +1,55 @@
+/***************Layout do Footer********************/
+
+h3
+{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: inline;
+}
+
+.base
+{
+    width: 1440px;
+    height: 400px;
+    background: #F97B22;
+    
+}
+
+.logo
+{
+    width: 108px;
+    height: 41px;
+    top: 38px;
+    left: 140px;
+    padding-left: 135px;
+    padding-top: 30px;
+
+}
+
+.contato
+{
+    width: 1165px;
+    height: 213px;
+    top: 109px;
+    left: 140px;
+    font: Montserrat;
+    color: #262626;
+    padding-left: 150px;
+
+}
+
+.copyright
+{
+    width: 257px;
+    height: 25px;
+    top: 342px;
+    left: 140px;
+    font: Montserrat;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #262626;
+    padding-left: 150px;
+
+}
