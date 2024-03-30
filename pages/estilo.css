@@ -1,0 +1,137 @@
+/**************Links**************/
+p
+{
+    display: inline;
+}
+
+a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 400px;
+    
+    color: #262626;
+    
+}
+
+a:visited
+{
+    color: #262626;
+}
+
+a:hover
+{
+    color: #FFCDAC;
+    background: #ff7000;
+}
+
+a:active
+{
+    color: #262626;
+}
+
+
+/********************************Layout do Navbar************************/
+
+
+
+.frame
+{
+    width: hug(413px);
+    height: hug(20px);
+    top: 39px;
+    left: 218px;
+    gap: 20px;
+    background-color: white;
+    float: top ;
+    
+}
+
+.line
+{
+    width: 44px;
+    top: 701px;
+    left: 198px;
+    border-left: 3px solid #262626;
+    rotate: 90°;
+    text-align: center;
+    
+}
+
+
+.imagem
+{
+    width: 136px;
+    height: 46px;
+    top: 26px;
+    left: 42px;
+    background-color: red;
+   
+} 
+.barra
+{
+    width: 1382px;
+    height: 100px;
+    background: rgba(255,255,255,0.75);
+    
+
+}
+
+
+
+
+
+/*************************Layout do Footer**************************/
+h3
+{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: inline;
+}
+
+.base
+{
+    width: 1440px;
+    height: 400px;
+    background: #F97B22;
+    
+}
+
+.logo
+{
+    width: 108px;
+    height: 41px;
+    top: 38px;
+    left: 140px;
+    padding-left: 135px;
+    padding-top: 30px;
+
+}
+
+.contato
+{
+    width: 1165px;
+    height: 213px;
+    top: 109px;
+    left: 140px;
+    font: Montserrat;
+    color: #262626;
+    padding-left: 150px;
+
+}
+
+.copyright
+{
+    width: 257px;
+    height: 25px;
+    top: 342px;
+    left: 140px;
+    font: Montserrat;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #262626;
+    padding-left: 150px;
+
+}
