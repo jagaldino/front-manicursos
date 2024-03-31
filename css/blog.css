@@ -1,5 +1,4 @@
 .headline-container {
-    width: 1440px;
     height: 186px;
     top: 160px;
     gap: 0px;
@@ -8,23 +7,26 @@
 }
 
 .headline-h1 {
-    width: 412px;
-    height: 64px;
-    top: 190px;
-    left: 514px;
-    gap: 0px;
-    opacity: 0px;
-    
     color: #FFFFFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-top: 25px;
 }
 
 .headline-p {
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 400px;
-color: #FFFFFF;
-width: 380px;
-height: 42px;
-margin-left: auto;
-margin-right: auto;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
 }
+
+.subtext {
+    display: block;
+    width: 100%;
+}
+
