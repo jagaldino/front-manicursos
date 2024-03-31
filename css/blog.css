@@ -8,10 +8,13 @@
 }
 
 .headline-h1 {
-    font-family: Montserrat;
-    font-size: 48px;
-    font-weight: 700px;
-    line-height: 64px;
+    width: 412px;
+    height: 64px;
+    top: 190px;
+    left: 514px;
+    gap: 0px;
+    opacity: 0px;
+    
     color: #FFFFFF;
 }
 
