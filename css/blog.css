@@ -1,12 +1,12 @@
-.headline-container {
+  .headline-container {
     height: 186px;
-    top: 160px;
+    top: 160px; /* Adjust positioning as needed */
     gap: 0px;
-    opacity: 0px;    
+    opacity: 1; /* Change opacity to visible */
     background-color: #F97B22; /* Cor de fundo laranja */
-}
-
-.headline-h1 {
+  }
+  
+  .headline-h1 {
     color: #FFFFFF;
     text-align: center;
     font-family: Montserrat;
@@ -14,19 +14,66 @@
     font-weight: 700;
     line-height: 64px;
     padding-top: 25px;
-}
-
-.headline-p {
+  }
+  
+  .headline-p {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
     width: 100%;
-}
-
-.subtext {
+  }
+  
+  .subtext {
     display: block;
     width: 100%;
+  }
+  
+  .banner-container {
+    width: 467px;
+    height: 513px;
+  }
+  .banner-imagem {
+    width: 467px;
+    height: 270px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+  }
+
+.banner-titulo {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
 }
 
+.banner-paragrafo {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justified;
+}
+
+.banner-data{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#95A1BB;
+}
+
+.banner-botton{
+    
+    font-family: DM Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: right;
+color:black
+
+}
