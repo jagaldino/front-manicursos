@@ -33,7 +33,16 @@
   .banner-container {
     width: 467px;
     height: 513px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
   }
+
+  .banner-card{
+    display: flex;
+    justify-content: center;
+  }
+  
   .banner-imagem {
     width: 467px;
     height: 270px;
@@ -57,23 +66,30 @@
     text-align: justified;
 }
 
-.banner-data{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color:#95A1BB;
+.banner-data {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #95A1BB;
+  display: flex; /* Usando flexbox para alinhar itens */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 10px;
+  width: 250px;
 }
 
-.banner-botton{
-    
-    font-family: DM Sans;
-font-size: 12px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 2px;
-text-align: right;
-color:black
+.banner-data img {
+  margin-right: 10px; /* Adiciona espaço entre o ícone e o texto */
+}
 
+.banner-bottom {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: black;
+  display: flex;
+  align-items: flex-end; 
+  margin-top: 10px;
 }
