@@ -32,10 +32,10 @@
 
 
 .banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Define duas colunas de tamanho igual */
+  gap: 20px; /* Define o espaçamento entre os cards */
   padding: 10px;
-  display: flex;
-  flex-wrap: wrap; /* Permite que os banners sejam empilhados quando não houver espaço suficiente na largura */
-  justify-content: space-around; /* Adiciona espaço entre os banners e os alinha nas extremidades */
   margin: 30px;
 }
 
