@@ -1,69 +1,74 @@
-  .headline-container {
-    height: 186px;
-    top: 160px; /* Adjust positioning as needed */
-    gap: 0px;
-    opacity: 1; /* Change opacity to visible */
-    background-color: #F97B22; /* Cor de fundo laranja */
-  }
-  
-  .headline-h1 {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
-    padding-top: 25px;
-  }
-  
-  .headline-p {
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: #FFFFFF;
-    width: 100%;
-  }
-  
-  .subtext {
-    display: block;
-    width: 100%;
-  }
-  
-  .banner-container {
-    width: 467px;
-    height: 513px;
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
-  }
+.headline-container {
+  height: 186px;
+  top: 160px; /* Adjust positioning as needed */
+  gap: 0px;
+  opacity: 1; /* Change opacity to visible */
+  background-color: #F97B22; /* Cor de fundo laranja */
+}
 
-  .banner-card{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .banner-imagem {
-    width: 467px;
-    height: 270px;
-    border-radius: 20px 20px 20px 20px;
-    opacity: 0px;
-  }
+.headline-h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  padding-top: 25px;
+}
+
+.headline-p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.subtext {
+  display: block;
+  width: 100%;
+}
+
+
+.banner-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Permite que os banners sejam empilhados quando não houver espaço suficiente na largura */
+  justify-content: space-around; /* Adiciona espaço entre os banners e os alinha nas extremidades */
+  margin: 30px;
+}
+
+.banner-imagem {
+  height: 270px;
+  border-radius: 20px;
+}
+
+.banner-card {
+  display: flex;
+  flex-direction: column;
+  width: 467px;
+  height: 590px;
+  gap: 0px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
 
 .banner-titulo {
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  padding-top: 10px;
 }
 
 .banner-paragrafo {
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: justified;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
 }
 
 .banner-data {
@@ -72,10 +77,6 @@
   font-weight: 400;
   line-height: 22px;
   color: #95A1BB;
-  display: flex; /* Usando flexbox para alinhar itens */
-  align-items: center; /* Centraliza verticalmente */
-  margin-top: 10px;
-  width: 250px;
 }
 
 .banner-data img {
@@ -89,7 +90,4 @@
   line-height: 20px;
   letter-spacing: 2px;
   color: black;
-  display: flex;
-  align-items: flex-end; 
-  margin-top: 10px;
 }
