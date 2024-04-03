@@ -55,9 +55,11 @@
 .banner-container {
   display: grid; /* Alterado para grid */
   grid-template-columns: repeat(2, 1fr); /* Dois cards por linha */
-  gap: 20px; /* Espaçamento entre os cards */
+  gap: auto; /* Espaçamento entre os cards */
   padding: 10px;
   margin: 30px;
+  width: 100%;
+  height: auto;
   position: relative; /* Adicionado para posicionar a caixa de pesquisa */
 }
 
