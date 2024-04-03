@@ -1,0 +1,54 @@
+body{
+    
+}
+
+.containerUm {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.containerDois {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+    
+}
+
+.containerTres {
+    display: flex;
+    margin-top: 130px;
+}
+
+.textoUm {
+    margin-left: 40px;
+    margin-right: 406px;
+}
+
+.textoDois {
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.valoresImagem {
+    margin-right: 406px;    
+}
+
+h1 {
+    font-family: 'DM Sans';
+    font-size: 48px;
+    margin-bottom: 29px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.barraLaranja{
+    text-decoration: underline;
+    text-decoration-color: #F97B22;
+    text-underline-offset: 4px;
+}
+
+
