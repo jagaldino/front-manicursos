@@ -9,7 +9,7 @@ h3
     font-weight: 700;
     line-height: 40px;
     text-align: left;
-    margin-left: 90px;
+   
 
 }
 
@@ -22,6 +22,7 @@ h3
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
     opacity: 0px;
+    margin-left: 65px;
 
 }
 
@@ -45,10 +46,11 @@ p.lorem
     text-align: left;
     color: #95A1BB;
     text-align: left;
-    margin-left: 90px;
     
 
 }
+
+
 
 .assunto
 {
@@ -56,11 +58,34 @@ p.lorem
    height: 46px;
    top: 312px;
    left: 97px;
-   gap: 0px;
-   opacity: 0px;
    border: 1px solid #CAD1E1;
+   text-align: left;
+   text-indent: 10px;
+   font-family: Montserrat;
+   color: #95A1BB;
+   margin-bottom: 20px;
+
+   
+}
+
+.nome
+{
+    width: 50px;
+    height: 22px;
+    top: 385px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Montserrat;
+    color: #95A1BB;
 
 }
+
+
+
+
 
 
 
