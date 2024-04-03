@@ -1,8 +1,29 @@
+/* Estilos para a caixa de pesquisa */
+.search-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  top: 406px;
+}
+
+.search-input {
+  width: 200px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid rgba(38, 38, 38, 1)
+}
+.input-icon {
+    background-image: url("../img/search-outline.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px; /* espaço para o ícone */
+  }
 .headline-container {
   height: 186px;
-  top: 160px; /* Adjust positioning as needed */
+  top: 160px; /* Ajuste conforme necessário */
   gap: 0px;
-  opacity: 1; /* Change opacity to visible */
+  opacity: 1; /* Altere a opacidade para visível */
   background-color: #F97B22; /* Cor de fundo laranja */
 }
 
@@ -30,28 +51,27 @@
   width: 100%;
 }
 
-
+/* Estilos responsivos para banners */
 .banner-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Define duas colunas de tamanho igual */
-  gap: 20px; /* Define o espaçamento entre os cards */
+  display: grid; /* Alterado para grid */
+  grid-template-columns: repeat(2, 1fr); /* Dois cards por linha */
+  gap: 20px; /* Espaçamento entre os cards */
   padding: 10px;
   margin: 30px;
+  position: relative; /* Adicionado para posicionar a caixa de pesquisa */
 }
 
 .banner-imagem {
+  width: 467px;
   height: 270px;
   border-radius: 20px;
 }
 
 .banner-card {
-  display: flex;
+  display: flex; /* Alterado para flex */
   flex-direction: column;
   width: 467px;
-  height: 590px;
-  gap: 0px;
-  border-radius: 20px;
-  flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 
 .banner-titulo {
@@ -60,7 +80,6 @@
   font-weight: 500;
   line-height: 32px;
   text-align: left;
-  padding-top: 10px;
 }
 
 .banner-paragrafo {
@@ -77,10 +96,12 @@
   font-weight: 400;
   line-height: 22px;
   color: #95A1BB;
+  display: flex;
+  align-items: center;
 }
 
 .banner-data img {
-  margin-right: 10px; /* Adiciona espaço entre o ícone e o texto */
+  margin-right: 10px; /* Adicionar espaço entre o ícone e o texto */
 }
 
 .banner-bottom {
