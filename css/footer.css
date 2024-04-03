@@ -1,10 +1,16 @@
 /***************Layout do Footer********************/
 
-h3
+p
 {
-    padding-left: 150px;
-    padding-right: 150px;
-    display: inline;
+    font-family: Montserrat;
+    color: #262626;
+    border: 10px;
+}
+
+h4
+{
+    font-family: Montserrat;
+    
 }
 
 .base
@@ -12,6 +18,8 @@ h3
     width: 1440px;
     height: 400px;
     background: #F97B22;
+    
+    
     
 }
 
@@ -21,23 +29,69 @@ h3
     height: 41px;
     top: 38px;
     left: 140px;
-    padding-left: 135px;
+    padding-left: 142px;
     padding-top: 30px;
 
 }
 
-.contato
+.bloco-principal
 {
     width: 1165px;
     height: 213px;
     top: 109px;
     left: 140px;
-    font: Montserrat;
-    color: #262626;
-    padding-left: 150px;
+    padding-left: 142px;
+    display: flex;
+    align-items: center;
+   
+    
 
 }
 
+.bloco-1
+{
+   width: 234px;
+   height: Fixed 213px;
+   top: 109px;
+   left: 140px;
+   gap: 15px;
+   opacity: 0px;
+   display: inline;
+   align-items: center;
+
+
+}
+
+.redes
+{
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.bloco-2
+{
+    width: 153px;
+    height: 213px;
+    top: 109px;
+    left: 691px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline;
+    padding-left: 285px;
+    padding-right: 285px;
+}
+
+.bloco-3
+{
+    width: 144px;
+    height: 213px;
+    top: 109px;
+    left: 1161px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline;
+    
+}
 .copyright
 {
     width: 257px;
@@ -48,7 +102,7 @@ h3
     font-weight: 400px;
     font-size: 14px;
     line-height: 22px;
-    text-align: right;
-    color: #262626;
-    padding-left: 150px;
+    margin-top: 40px;
+    padding-left: 142px;
+
 }
