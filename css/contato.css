@@ -1,0 +1,67 @@
+/************************CONTATO***********************************/
+
+h3
+{
+    font-family: Montserrat;
+    color: #262626;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 90px;
+
+}
+
+.formulario
+{
+    width: 642px;
+    height: 350px;
+    top: 160px;
+    left: 647px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.lorem
+{
+    width: 410px;
+    height: 72px;
+    top: 215px;
+    left: 97px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+p.lorem
+{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #95A1BB;
+    text-align: left;
+    margin-left: 90px;
+    
+
+}
+
+.assunto
+{
+   width: 460px;
+   height: 46px;
+   top: 312px;
+   left: 97px;
+   gap: 0px;
+   opacity: 0px;
+   border: 1px solid #CAD1E1;
+
+}
+
+
+
+
