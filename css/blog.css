@@ -1,24 +1,4 @@
-/* Estilos para a caixa de pesquisa */
-.search-box {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  top: 406px;
-}
 
-.search-input {
-  width: 200px;
-  padding: 8px;
-  border-radius: 20px;
-  border: 1px solid rgba(38, 38, 38, 1)
-}
-.input-icon {
-    background-image: url("../img/search-outline.svg");
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-    padding-right: 30px; /* espaço para o ícone */
-  }
 .headline-container {
   height: 186px;
   top: 160px; /* Ajuste conforme necessário */
@@ -51,29 +31,58 @@
   width: 100%;
 }
 
-/* Estilos responsivos para banners */
-.banner-container {
-  display: grid; /* Alterado para grid */
-  grid-template-columns: repeat(2, 1fr); /* Dois cards por linha */
-  gap: auto; /* Espaçamento entre os cards */
-  padding: 10px;
-  margin: 30px;
-  width: 100%;
-  height: auto;
-  position: relative; /* Adicionado para posicionar a caixa de pesquisa */
+#divBusca {
+  width: 195px;
+  height:31px;
+  top: 406px;
+  left: 1091px;
+  padding: 20px 0px 0px 0px;
+  gap: 55px;
+  border-radius: 90px;
+  opacity: 0px;
+  border: 1px solid rgba(38, 38, 38, 1)  
 }
 
-.banner-imagem {
-  width: 467px;
-  height: 270px;
-  border-radius: 20px;
+#txtBusca {
+  width: 91px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(143, 143, 143, 1);
+}    
+
+#btnBusca{
+  width: 14px;
+height: 14px;
+
+}
+
+/* Estilos responsivos para banners */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 30px; 
 }
 
 .banner-card {
-  display: flex; /* Alterado para flex */
+  display: flex; 
   flex-direction: column;
-  width: 467px;
-  padding-bottom: 40px;
+  width: 467px; 
+  padding: 100px
+
+}
+.banner-imagem {
+	width: 467px;
+	height: 270px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .banner-titulo {
