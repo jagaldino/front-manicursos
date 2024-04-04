@@ -1,5 +1,4 @@
 /************************CONTATO***********************************/
-
 h3
 {
     font-family: Montserrat;
@@ -10,7 +9,6 @@ h3
     line-height: 40px;
     text-align: left;
    
-
 }
 
 .formulario
@@ -23,7 +21,6 @@ h3
     border-radius: 20px 0px 0px 0px;
     opacity: 0px;
     margin-left: 65px;
-
 }
 
 .lorem
@@ -32,8 +29,7 @@ h3
     height: 72px;
     top: 215px;
     left: 97px;
-    gap: 0px;
-    opacity: 0px;
+    opacity: 0px;  
 
 }
 
@@ -46,11 +42,11 @@ p.lorem
     text-align: left;
     color: #95A1BB;
     text-align: left;
-    
+      
 
 }
 
-
+/*********************Forms**********************/
 
 .assunto
 {
@@ -65,23 +61,60 @@ p.lorem
    color: #95A1BB;
    margin-bottom: 20px;
 
-   
 }
 
-.nome
+.nome /*mexe nas características da caixa nome*/
 {
-    width: 50px;
-    height: 22px;
+    width: 210px;
+    height: 36px;
     top: 385px;
     left: 112px;
-    gap: 0px;
-    opacity: 0px;
-    text-align: left;
-    text-indent: 10px;
-    font-family: Montserrat;
+    border: 1px solid #CAD1E1;
+    margin-right: 15px; 
+    font-family: Montserrat;  /*o font-family e o color aqui é quando o usuário digita*/
     color: #95A1BB;
 
 }
+
+
+.email  /*mexe nas características da caixa nome*/
+{
+    width: 215px;
+    height: 36px;
+    top: 385px;
+    left: 112px;
+    border: 1px solid #CAD1E1;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Montserrat;  /*o font-family e o color aqui é quando o usuário digita*/
+    color: #95A1BB;
+    
+}
+
+.input-email
+{
+   left: 240px;
+   position: relative;
+   bottom: 40px;   
+}
+
+.mensagem
+{
+    width: 460px;
+    height: 36px;
+    top: 434px;
+    left: 97px;
+    font-family: Montserrat;  
+    color: #95A1BB;
+   
+}
+
+
+
+
+
+
+
 
 
 
