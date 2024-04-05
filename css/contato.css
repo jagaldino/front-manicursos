@@ -13,17 +13,33 @@ h3
    
 }
 
+.tela-contato
+{
+   width: 1192px;
+   height: 390px;
+   top: 160px;
+   left: 97px;
+   /*border: 1px solid pink;*/
+   margin-left: 65px;
+   /*display: flex;*/
+   
+   
+
+}
+
 /******************BASE DO PARÁGRAFO E PARÁGRAFOS*******************************/
 .formulario
 {
     width: 642px;
-    height: 350px;
+    height: 320px;
     top: 160px;
     left: 647px;
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
     opacity: 0px;
-    margin-left: 65px;
+    /*margin-left: 65px;*/
+    /*border: 1px solid blue;*/
+    
 }
 
 .lorem
@@ -159,7 +175,7 @@ p.lorem
    font-weight: 700;
    line-height: 16px;
    text-align: center;
-   margin-left: 63px;
+   margin-left: 0px;
    color: #fff;
    border: #F97B22;
    cursor:pointer;
@@ -169,6 +185,56 @@ p.lorem
 
 /*************************FINAL DO BOTÃO ENVIAR*******************************/
 
+/***********************INICIO DO MAPA*********************************/
+
+.espaco-mapa
+{
+    width: 6px;
+    height: 6px;
+    top: 160px;
+    left: 97px;
+    margin-left: 520px;
+   /* margin-top: 30px; */
+   
+
+}
+
+.mapa
+{
+    width: 321px;
+    height: 175px;
+    top: 90px;
+    left: 907px;
+    border-radius: 20px; 
+    
+}
+
+.endereco
+{
+    width: 409px;
+    height: 24px;
+    top: 520px;
+    left: 647px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 150px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+
+}
+
+p.endereco
+{
+    margin-bottom: 80px;
+}
 
 
 

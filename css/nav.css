@@ -24,6 +24,12 @@ a:hover
     background: #ff7000;
 }
 
+.imagem a:hover
+{
+    color: none;
+    background: none;
+}
+
 a:active
 {
     color: #262626;
@@ -68,6 +74,7 @@ p
     left: 42px;
     margin-left: 60px; 
     margin-top: 3px;
+    cursor:pointer;
 } 
 
 .barra
