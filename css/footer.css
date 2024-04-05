@@ -1,4 +1,7 @@
-/***************Layout do Footer********************/
+body
+{
+    margin: 0px;
+}
 
 p
 {
@@ -15,12 +18,12 @@ h4
 
 .base
 {
-    width: 1526px;
+    margin-top: 100px;
     height: 400px;
+    width: 1440px;
     background: #F97B22;
-    
-    
-    
+    align-items: center;
+      
 }
 
 .logo
@@ -29,8 +32,9 @@ h4
     height: 41px;
     top: 38px;
     left: 140px;
-    padding-left: 142px;
+    padding-left: 137px;
     padding-top: 30px;
+    cursor:pointer;
 
 }
 
@@ -44,7 +48,6 @@ h4
     display: flex;
     align-items: center;
    
-    
 
 }
 
@@ -66,6 +69,7 @@ h4
 {
     padding: 10px;
     padding-left: 0px;
+    cursor:pointer;
 }
 
 .bloco-2
@@ -104,4 +108,5 @@ h4
     line-height: 22px;
     margin-top: 40px;
     padding-left: 142px;
+
 }
