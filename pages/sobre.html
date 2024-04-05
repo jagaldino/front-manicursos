@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/sobre.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
@@ -16,20 +14,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="manifest" href="../img/site.webmanifest">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="barra">
         <div class="imagem">
-            <img src="../img/manilogo.svg">
+            <a href="../pages/home.html">
+                <img src="../img/manilogo.svg">
+            </a>
         </div>
-        <!--  <img class="imagem" src="../img/manilogo.svg"> -->
         <div>
             <p class="line"></p>
         </div>
         <div class="frame">
-            <!-- <div><p class="line"></p></div> -->
-            <a class="frame" href="index.html">HOME</a>
+            <a class="frame" href="home.html">HOME</a>
             <a class="frame" href="sobre.html">SOBRE</a>
             <a class="frame" href="cursos.html">CURSOS</a>
             <a class="frame" href="blog.html">BLOG</a>
@@ -55,9 +55,11 @@
         </div>
     </div>
     <div class="containerTres">
-        <h1 id="titulo3"><span class="barraLaranja">Os melhores</span> professores do mercado</h1>
-        <p id="texto3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, est felis, sagittis viverra
-            nulla mattis scelerisque. Eget cras integer.</p>
+        <div id="background">
+            <h1 id="titulo3"><span class="barraLaranja">Os melhores</span> professores do mercado</h1>
+            <p id="texto3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, est felis, sagittis viverra
+                nulla mattis scelerisque. Eget cras integer.</p>
+        </div>
     </div>
     <div class="containerQuatro">
         <h1 id="titulo4">Nossa Equipe</h1>
@@ -73,13 +75,13 @@
             <div class="conjunto">
                 <img src="file:///C:/Users/Igorn/Downloads/Base%20(1).svg">
                 <h2 class="nomes">Cristina Siqueira</h2>
-                <h3 class="formacoes"> Doutora em construções sustentáveis</h3>
+                <h3 class="formacoes">DOUTORA EM CONSTRUÇÕES SUSTENTÁVEIS</h3>
                 <h4 class="legenda">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
             </div>
             <div class="conjunto">
                 <img src="C:/Users/Igorn/Downloads/img.svg">
                 <h2 class="nomes">Juliano Cavalanti</h2>
-                <h3 class="formacoes">Doutor em farmacologia médica</h3>
+                <h3 class="formacoes">DOUTOR EM FARMACOLOGIA MÉDICA</h3>
                 <h4 class="legenda">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
             </div>
             <div class="conjunto">
@@ -93,14 +95,18 @@
 
 
     <div class="base">
-        <img class="logo" src="../img/manilogo.svg">
+        <a href="../pages/home.html">
+            <img class="logo" src="../img/manilogo.svg">
+        </a>
         <div class="bloco-principal">
             <div class="bloco-1">
                 <h4>Entre em contato</h4>
                 <p>contato@manicursos.com.br</p>
                 <p>+1-2345-6789</p>
                 <p>23 Cornelia St, NY 10014, EUA</p>
-                <img class="redes" src="../img/redes sociais.svg">
+                <a href="https://www.facebook.com/ejectufrn/" target="_blank">
+                    <img class="redes" src="../img/redes sociais.svg">
+                </a>
             </div>
             <div class="bloco-2">
                 <h4>FAQ</h4>
