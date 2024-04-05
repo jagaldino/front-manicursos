@@ -1,54 +1,133 @@
-body{
-    
-}
-
 .containerUm {
     display: flex;
     margin-top: 60px;
+    margin-left: 71px;
+    margin-right: 138px;
+    justify-content: center;
 
+}
+
+.textoUm {
+    margin-left: 40px;
+}
+
+#descricaoUm {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    width: 536px;
+    color:#262626;
 }
 
 .containerDois {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 90px;
-    
-}
-
-.containerTres {
-    display: flex;
-    margin-top: 130px;
-}
-
-.textoUm {
-    margin-left: 40px;
-    margin-right: 406px;
+    margin-left: 71px;
+    margin-right: 138px;
+    justify-content: center;
 }
 
 .textoDois {
-    margin-left: 40px;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
-.valoresImagem {
-    margin-right: 406px;    
+#descricaoDois {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    width: 536px;
+    color: #262626
 }
 
-h1 {
+.titulos {
     font-family: 'DM Sans';
     font-size: 48px;
     margin-bottom: 29px;
 }
 
-p {
-    font-family: 'Montserrat';
-    font-size: 18px;
+.containerTres {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 96px 130px 71px;
+    background-image: url("file:///C:/Users/Igorn/Downloads/Rectangle%20604.svg");
+    background-repeat: no-repeat;
+    width: 1317px;
+    height: 580px;
 }
 
-.barraLaranja{
+#titulo3 {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    width: 759px;
+    margin: 110px 
+}
+
+#texto3 {
+    color: white;
+    margin-left: 84px;
+    margin-right: 550px;
+}
+.containerQuatro {
+    background-color: #F97B22;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerImagens {
+    display: flex;
+    margin: 72px 90px 72px;
+}
+
+.conjunto {
+    margin-right: 45px;
+}
+
+.barraLaranja {
     text-decoration: underline;
     text-decoration-color: #F97B22;
     text-underline-offset: 4px;
 }
 
 
+
+
+#titulo4 {
+    color: white;
+    margin-top: 59px;
+
+}
+
+#texto4 {
+    color: white;
+    line-height: 25px;
+    margin: 0px 430px 0px 430px;
+}
+
+.nomes {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.formacoes {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.legenda {
+    color: white;
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    width: 290px;
+    font-weight: 100;
+}
