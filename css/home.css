@@ -1,0 +1,51 @@
+.home
+{
+   width: 100%;
+   height: 100%;
+   top: -2298px;
+   left: -3319px;
+
+}
+
+.aluno-aprova
+{
+   width: 100%;
+   height: 574px;
+   top: 2207px;
+   left: -152px;
+   border-radius: 35px 0px 0px 0px;
+   border: 1px solid green;
+
+}
+
+.frase
+{
+  width: 100%;
+  height: 64px;
+  top: 2207px;
+  left: 463px;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  border: 1px solid purple;
+  align-items: center;
+  
+
+}
+
+.frase span
+{
+   color:#F97B22;
+   width: 100%;
+   height: 64px;
+   top: 2207px;
+   left: 463px;
+   font-family: DM Sans;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 64px;
+   text-align: center;
+   align-items: center;
+}
