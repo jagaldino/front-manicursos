@@ -45,27 +45,3 @@
 {
    color:#F97B22;
 }
-
-#carrossel
-{
-
-   margin: 0 auto;
-   width: 800px;
-   max-width: 100%;
-   text-align: center;
-   
-}
-
-.foto-alunos
-{
-   width: 350px;
-   height: 450px;
-   top: 2331px;
-   left: 946px;
-   gap: 0px;
-   border-radius: 35px;
-   opacity: 0px;
-   display:flex;
-}
-
-
