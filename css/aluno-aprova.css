@@ -1,0 +1,45 @@
+
+/* --------------------- Quem já foi aluno aprova -----------------------------------------------------------*/
+.box-aluno{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-aluno{
+    position: relative;
+}
+
+.slider-aluno{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.descricao-aluno{
+    background-color: var(--laranja);
+    position: absolute;
+    top: 69%;
+    height: 22%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.p-curso, .p-nome, .p-descricao{
+    color: white;
+}
+
+.p-descricao, .p-curso{
+    font-size: 14px;
+}
+
+.p-curso{
+    margin: 10px 0;
+}
+
+.p-nome{
+    font-size: 20px;
+    font-weight: 700;
+}

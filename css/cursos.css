@@ -75,8 +75,9 @@ section{
 .card-master{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 
 .card{

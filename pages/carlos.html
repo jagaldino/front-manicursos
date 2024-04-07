@@ -1,7 +1,13 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Manicursos | Home {% endblock %}
 
-    <link rel="stylesheet" type="text/css" href="css/cursos.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/cursos.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+{% endblock %}
 
+{% block main %}
 <!--------------------------------------- header ------------------------------------------------>
 <header>
     <div class="box-header">
@@ -13,18 +19,18 @@
         
         <div class="explorar flex">
             
-            <a class="link-explorar" href="url 'curso:cursos'">
+            <a class="link-explorar" href="{% url 'curso:cursos' %}">
                 <div class="circle-explorar bg-orange">
-                    <img src="'img/graphics/Line.svg'" alt="">
+                    <img src="{% static 'img/graphics/Line.svg' %}" alt="">
                 </div>
                 <p class="text-explorar">explorar cursos</p>
             </a>
 
             <div class="estudando flex">
                 <div class="circles">
-                    <div class="circle"><img src="'img/home/icon 001 1.svg'" alt=""></div>
-                    <div class="circle"><img src="'img/home/icon 002 1.svg'" alt=""></div>
-                    <div class="circle"><img src="'img/home/icon 003 1.svg'" alt=""></div>
+                    <div class="circle"><img src="{% static 'img/home/icon 001 1.svg' %}" alt=""></div>
+                    <div class="circle"><img src="{% static 'img/home/icon 002 1.svg' %}" alt=""></div>
+                    <div class="circle"><img src="{% static 'img/home/icon 003 1.svg' %}" alt=""></div>
                 </div>
                 <p>78.926 alunos</p>
                 <p>estudando agora</p>
@@ -63,41 +69,42 @@
     <div class="box-right">
 
         <div class="circle">
-            <img class="arrow-left" src="'img/graphics/seta-direita.png'" alt="arrow-left">
+            <img class="arrow-left" src="{% static 'img/graphics/seta-direita.png' %}" alt="arrow-left">
         </div>
         <div class="circle">
-            <img src="'img/graphics/seta-direita.png'" alt="arrow-right">
+            <img src="{% static 'img/graphics/seta-direita.png' %}" alt="arrow-right">
         </div>
     </div>
 
     <div class="card-master">
+        {% for curso in cursos %}
             <div class="card">
 
                 <div class="img-card">
-                    <img src="curso.imagem.url" alt="imagem-curso-curso.nome">
+                    <img src="{{curso.imagem.url}}" alt="imagem-curso-{{curso.nome}}">
                 </div>
 
                 <div class="card-header">
-                    <h1 class="card-title">Mani</h1>
+                    <h1 class="card-title">{{curso.nome}}</h1>
                     <div class="avaliacao">   
-                        <img src="'img/graphics/estrela.png'" alt="estrela">
-                        <p>(curso.nota)</p>
+                        <img src="{% static 'img/graphics/estrela.png' %}" alt="estrela">
+                        <p>({{curso.nota}})</p>
                     </div>
                 </div>
 
-                <h2>Quem já foi aluno aprova!</h2>
+                <h2>{{curso.get_modalidade_display}} - {{curso.carga_horaria}}h semanais - {{curso.get_nivel_display}}</h2>
 
-                <p class="descricao">curso.descricao</p>
+                <p class="descricao">{{curso.descricao}}</p>
 
                 <div class="card-footer">
                     <div class="preco">
                         <p class="preco-destaque">24x de R$ 410,90</p>
-                        <p class="preco-a-vista">ou R$ curso.preco à vista</p>
+                        <p class="preco-a-vista">ou R${{curso.preco}} à vista</p>
                     </div>
                     <button>ver mais</button>
                 </div>
             </div>
-        
+        {% endfor %}
     </div>
 </section>
 
@@ -107,3 +114,22 @@
 
 
 <!---------------------------------- quem já foi aluno aprova! ----------------------------------->
+
+<div class="box-aluno">
+    <h1>Quem já foi aluno <span class="text-orange">aprova!</span></h1>
+    <div class="slider-aluno">
+        {% for aluno in alunos %}
+        <div class="card-aluno">
+            <img src="{{aluno.imagem.url}}" alt="">
+            <div class="descricao-aluno">
+                <p class="p-nome">{{aluno.nome}}</p>
+                <p class="p-curso">{{aluno.curso.nome}} ({{aluno.data_entrada}}-{{aluno.data_saida}})</p>
+                <p class="p-descricao">"lorem ipsum dolor sit amet consectetur. id nunc ultrices eget risus at accumsan. Urna</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock%}
