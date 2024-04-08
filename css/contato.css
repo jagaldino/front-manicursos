@@ -1,0 +1,246 @@
+/*******************************CONTATO***********************************/
+h3
+{
+    font-family: Montserrat;
+    color: #262626;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    display: inline;
+    
+   
+}
+
+.tela-contato
+{
+   width: 1192px;
+   height: 390px;
+   top: 160px;
+   left: 97px;
+   /*border: 1px solid pink;*/
+   margin-left: 65px;
+   /*display: flex;*/
+   align-items: center;
+   
+   
+
+}
+
+/******************BASE DO PARÁGRAFO E PARÁGRAFOS*******************************/
+.formulario
+{
+    width: 642px;
+    height: 320px;
+    top: 160px;
+    left: 647px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    /*margin-left: 65px;*/
+    /*border: 1px solid blue;*/
+    
+}
+
+.lorem
+{
+    width: 410px;
+    height: 72px;
+    top: 215px;
+    left: 97px;
+    opacity: 0px;  
+
+}
+
+p.lorem
+{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #95A1BB;
+    text-align: left;
+    
+
+}
+
+/*****************************FINAL DA BASE DO FORMULÁRIO E PARÁGRAFOS***************************/
+                     /*
+                     *
+                     */
+/***********************************INICIO DO FORMS*************************************/
+
+.assunto
+{
+   width: 460px;
+   height: 40px;
+   top: 312px;
+   left: 97px;
+   border: 1px solid #CAD1E1;
+   border-radius: 5px;
+   text-align: left;
+   text-indent: 10px;
+   font-family: Montserrat;
+   color: #95A1BB;
+   margin-bottom: 20px;
+
+}
+
+.nome /*mexe nas características da caixa nome*/
+{
+    width: 210px;
+    height: 36px;
+    top: 385px;
+    left: 112px;
+    border: 1px solid #CAD1E1;
+    border-radius: 5px;
+    margin-right: 15px; 
+    font-family: Montserrat;  /*o font-family e o color aqui é quando o usuário digita*/
+    color: #95A1BB;
+
+}
+
+
+.email  /*mexe nas características da caixa nome*/
+{
+    width: 215px;
+    height: 36px;
+    top: 385px;
+    left: 112px;
+    border: 1px solid #CAD1E1;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Montserrat;  /*o font-family e o color aqui é quando o usuário digita*/
+    color: #95A1BB;  
+}
+
+.input-email
+{
+   left: 240px;
+   position: relative;
+   bottom: 40px;   
+   
+}
+
+.mensagem
+{
+    width: 460px;
+    height: 36px;
+    top: 4340px;
+    left: 97px;
+    font-family: Montserrat;  
+    color: #95A1BB;
+    border: 1px solid #CAD1E1;
+    border-radius: 5px;
+    
+   
+}
+
+.input-mensagem
+{
+   margin-top: 20px;
+   position: relative;
+   bottom: 40px;  
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   text-align: left;
+ 
+   
+}
+
+/*******************************FINAL DO FORMS********************************/ 
+               /*
+               *
+               *
+               */
+/*************************INICIO DO BOTÃO ENVIAR**************************/
+
+
+.botao-enviar
+{
+    width: 91 px;
+    height: 40px;
+    top: 510px;
+    left: 97px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border-radius: 90px;
+    opacity: 0px;
+    background: #F97B22;
+   font-family: Montserrat;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 16px;
+   text-align: center;
+   margin-left: 0px;
+   color: #fff;
+   border: #F97B22;
+   cursor:pointer;
+   
+
+}
+
+/*************************FINAL DO BOTÃO ENVIAR*******************************/
+
+/***********************INICIO DO MAPA*********************************/
+
+.espaco-mapa
+{
+    width: 6px;
+    height: 6px;
+    top: 160px;
+    left: 97px;
+    margin-left: 520px;
+   /* margin-top: 30px; */
+   
+
+}
+
+.mapa
+{
+    width: 321px;
+    height: 175px;
+    top: 90px;
+    left: 907px;
+    border-radius: 20px; 
+    
+}
+
+.endereco
+{
+    width: 409px;
+    height: 24px;
+    top: 520px;
+    left: 647px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 150px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+
+}
+
+p.endereco
+{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+

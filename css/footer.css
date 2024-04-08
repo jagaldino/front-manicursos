@@ -1,0 +1,112 @@
+body
+{
+    margin: 0px;
+}
+
+p
+{
+    font-family: Montserrat;
+    color: #262626;
+    border: 10px;
+}
+
+h4
+{
+    font-family: Montserrat;
+    
+}
+
+.base
+{
+    
+    height: 400px;
+    width: 100%;
+    background: #F97B22;
+    align-items: center;
+      
+}
+
+.logo
+{
+    width: 108px;
+    height: 41px;
+    top: 38px;
+    left: 140px;
+    padding-left: 137px;
+    padding-top: 30px;
+    cursor:pointer;
+
+}
+
+.bloco-principal
+{
+    width: 1165px;
+    height: 213px;
+    top: 109px;
+    left: 140px;
+    padding-left: 142px;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.bloco-1
+{
+   width: 234px;
+   height: Fixed 213px;
+   top: 109px;
+   left: 140px;
+   gap: 15px;
+   opacity: 0px;
+   display: inline;
+   align-items: center;
+
+
+}
+
+.redes
+{
+    padding: 10px;
+    padding-left: 0px;
+    cursor:pointer;
+}
+
+.bloco-2
+{
+    width: 153px;
+    height: 213px;
+    top: 109px;
+    left: 691px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline;
+    padding-left: 285px;
+    padding-right: 285px;
+}
+
+.bloco-3
+{
+    width: 144px;
+    height: 213px;
+    top: 109px;
+    left: 1161px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline;
+    
+}
+.copyright
+{
+    width: 257px;
+    height: 25px;
+    top: 342px;
+    left: 140px;
+    font: Montserrat;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 40px;
+    padding-left: 142px;
+
+}

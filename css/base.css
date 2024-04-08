@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+:root{
+    --laranja: #ff7000;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+}
+
+.barraLaranja {
+    text-decoration: underline;
+    text-decoration-color: #F97B22;
+    text-underline-offset: 4px;
+}
+
+.inline{
+    display: contents;
+}
+
+.text-orange{
+    color: var(--laranja)
+}
+
+.bg-orange{
+    background-color: var(--laranja);
+}
+
+.bg-black{
+    background-color: black;
+}

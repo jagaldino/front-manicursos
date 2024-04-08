@@ -1,0 +1,61 @@
+.imagens-laterais
+{
+   width: 585px;
+   height: 950px;
+   top: 0px;
+   left: 791px;
+   gap: 0px;
+   border-radius: 35px;
+   opacity: 0px;
+   margin-left: 1100px;
+  /* border: 1px solid red;*/
+   clear: right;
+   
+   
+
+}
+
+.lateral-1
+{
+  
+  display: inline;
+  float: inline-end;
+ 
+}
+
+.lateral-2
+{
+    display: inline;
+    float: inline-start;
+    padding-bottom: 30px;
+}
+
+.lateral-3
+{
+    display: inline;
+    float: inline-end;
+    padding-bottom: 25px;
+}
+
+.lateral-4
+{
+    display: inline;
+    float: inline-start;
+    padding-bottom: 25px;
+}
+
+.lateral-5
+{
+    display: inline;
+    float: inline-end;
+    z-index: 1;
+    padding-bottom: 25px;
+}
+
+.lateral-6
+{
+    display: inline;
+    float: inline-start;
+    padding-bottom: 25px;
+}
+
