@@ -1,0 +1,143 @@
+.containerUm {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+
+}
+
+.textoUm {
+    margin-left: 40px;
+}
+
+#descricaoUm {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    width: 536px;
+    color: #262626;
+}
+
+.containerDois {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.textoDois {
+    margin-right: 40px;
+}
+
+#descricaoDois {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    width: 536px;
+    color: #262626
+}
+
+.titulos {
+    font-family: 'DM Sans';
+    font-size: 48px;
+    margin-bottom: 29px;
+}
+
+.containerTres {
+    display: flex;
+    margin: 130px 0px 130px 0px;
+    justify-content: center;
+
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    background-image: url("file:///C:/Users/Igorn/Downloads/Rectangle%20604.svg");
+    background-repeat: no-repeat;
+    width: 1317px;
+    height: 580px;
+    padding: 110px 0px 0px 84px;
+    box-sizing: border-box;
+}
+
+#titulo3 {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    width: 759px;
+    margin: 0px;
+}
+
+#texto3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    width: 616px;
+    margin-top: 15px;
+}
+
+.containerQuatro {
+    background-color: #F97B22;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin-top: 59px;
+}
+
+#texto4 {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 400;
+    font-size: 27px;
+    width: 907px;
+    margin-top: 29px;
+}
+
+.containerImagens {
+    display: flex;
+    margin: 90px 0px 105px 0px;
+}
+
+.conjunto {
+    margin-right: 45px;
+}
+
+.barraLaranja {
+    text-decoration: underline;
+    text-decoration-color: #F97B22;
+    text-underline-offset: 4px;
+}
+
+.nomes {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.formacoes {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.legenda {
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    width: 289px;
+    font-weight: 400;
+}
