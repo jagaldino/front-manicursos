@@ -1,17 +1,22 @@
 /**************Links**************/
-a {
+
+a
+{
     font-family: 'Montserrat';
     text-decoration: none;
     font-weight: 400px;
     font-size: 80%;
     color: #262626;
+    
 }
 
-a:visited {
+a:visited
+{
     color: #262626;
 }
 
-a:hover {
+a:hover
+{
     color: #262626;
     background: #ff7000;
 }
@@ -27,47 +32,56 @@ a:active
     color: #262626;
 }
 
+
 /********************************Layout do Navbar************************/
-p {
+
+p
+{
     display: flex;
 }
 
-.frame {
-    width: 413px;
+.frame
+{
+    width: 100%;
     height: 20px;
     top: 39px;
     left: 218px;
     gap: 20px;
     margin-bottom: 8px;    
     padding: 8px;
+    
 }
 
-.line {
+.line
+{
+    
     top: 701px;
     left: 198px;
     height: 35px;
     margin-bottom: 25px;
     border-left: 3px solid #262626;
+       
 }
 
-.imagem {
+.imagem
+{
     width: 116px;
     height: 46px;
     top: 26px;
     left: 42px;
-    margin-left: 60px;
+    margin-left: 60px; 
     margin-top: 3px;
     cursor:pointer;
 } 
 
 .barra
 {
-    
+    width: 50%;
     height: 100px;
-   background: rgba(255,255,255,0.75);
-   display: flex;
-   align-items: center;
-          
+    background: rgba(255,255,255,0.75);
+    display: flex;
+    align-items: center;
+    
 
 }
 

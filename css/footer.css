@@ -18,8 +18,9 @@ h4
 
 .base
 {
+    
     height: 400px;
-    width: 1440px;
+    width: 100%;
     background: #F97B22;
     align-items: center;
       
